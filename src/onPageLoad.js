@@ -4,7 +4,7 @@ import Restaurant from './restaurant2.jpeg';
 
 function addContents(content) {    
     const headline = document.createElement('p');
-    headline.textContent = `The best restaurant in the bay area, hands down - Some Reviewer`;
+    headline.textContent = `'The best restaurant in the bay area, hands down' - Some Reviewer`;
 
     const myRestaurant = new Image();
     myRestaurant.src = Restaurant;

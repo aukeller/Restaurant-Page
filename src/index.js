@@ -7,6 +7,7 @@ const content = document.querySelector('#content');
 
 function createTabs() {
     const container = document.createElement('div');
+    container.classList.add('tabs')
 
     const homeBtn = document.createElement('button');
     homeBtn.textContent = "Home";
