@@ -3,20 +3,36 @@ body {
     height: 100vh;
 }
 
+button {
+    border: none;
+    background: transparent;
+
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
 .tabs {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
 }
 
-.contact {
-    height: 50vh;
+.contact, .schedule {
 
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
+
+}
+
+.contact {
+    height: 50vh;
+
 }
 
 #content {
